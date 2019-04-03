@@ -12,6 +12,9 @@
 		1868757D22531ADF00244381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1868757B22531ADF00244381 /* Main.storyboard */; };
 		1868757F22531AE000244381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1868757E22531AE000244381 /* Assets.xcassets */; };
 		1868758222531AE000244381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1868758022531AE000244381 /* LaunchScreen.storyboard */; };
+		1868758A225422FA00244381 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18687589225422FA00244381 /* DetailViewController.swift */; };
+		1868758C2254232600244381 /* AircraftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868758B2254232600244381 /* AircraftData.swift */; };
+		1868758E225423DA00244381 /* Aircraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868758D225423DA00244381 /* Aircraft.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		1868757E22531AE000244381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1868758122531AE000244381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1868758322531AE000244381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18687589225422FA00244381 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1868758B2254232600244381 /* AircraftData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftData.swift; sourceTree = "<group>"; };
+		1868758D225423DA00244381 /* Aircraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aircraft.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				1868757722531ADF00244381 /* AppDelegate.swift */,
 				1868757922531ADF00244381 /* ViewController.swift */,
+				18687589225422FA00244381 /* DetailViewController.swift */,
+				1868758B2254232600244381 /* AircraftData.swift */,
+				1868758D225423DA00244381 /* Aircraft.swift */,
 				1868757B22531ADF00244381 /* Main.storyboard */,
 				1868757E22531AE000244381 /* Assets.xcassets */,
 				1868758022531AE000244381 /* LaunchScreen.storyboard */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1868758A225422FA00244381 /* DetailViewController.swift in Sources */,
 				1868757A22531ADF00244381 /* ViewController.swift in Sources */,
+				1868758E225423DA00244381 /* Aircraft.swift in Sources */,
 				1868757822531ADF00244381 /* AppDelegate.swift in Sources */,
+				1868758C2254232600244381 /* AircraftData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
